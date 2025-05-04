@@ -7,7 +7,6 @@ import org.junit.jupiter.api.Test;
 import java.util.ArrayList;
 import java.util.List;
 
-// Assume your main classes are in the same package or imported.
 
 class BankAccountTest {
 
