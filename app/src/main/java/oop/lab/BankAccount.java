@@ -17,7 +17,7 @@ public abstract class BankAccount {
 
     public void withdraw(double amount) {
         if (amount > balance) {
-            throw new IllegalArgumentException("Saldo tidak mencukupi");
+            throw new IllegalArgumentException("Insufficient funds");
         }
         balance -= amount;
     }
